@@ -1,0 +1,60 @@
+```html
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 10 Social Science | Krishan Sir</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f4f8;
+            margin: 0;
+            text-align: center;
+        }
+
+        header {
+            background: #123c69;
+            color: white;
+            padding: 25px;
+        }
+
+        main {
+            background: white;
+            margin: 25px auto;
+            padding: 25px;
+            max-width: 700px;
+            border-radius: 12px;
+        }
+
+        a {
+            display: inline-block;
+            background: #087f5b;
+            color: white;
+            padding: 12px 20px;
+            margin: 8px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Krishan Sir Educational Website</h1>
+    <h2>Class 10 Social Science</h2>
+    <p>Govt Girls High School, Dhanger</p>
+</header>
+
+<main>
+    <h2>अध्ययन सामग्री</h2>
+    <p>कक्षा 10 सामाजिक विज्ञान के अध्ययन पेज पर आपका स्वागत है।</p>
+
+    <a href="index.html">मुख्य पेज पर जाएँ</a>
+</main>
+
+</body>
+</html>
+```
