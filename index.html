@@ -1,0 +1,244 @@
+```html
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishan Sir | Educational Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #172554;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #073b75;
+            color: white;
+            padding: 25px 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 32px;
+        }
+
+        nav {
+            background: #0f766e;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 55px 20px;
+            background: linear-gradient(135deg, #dbeafe, #ccfbf1);
+        }
+
+        .hero h2 {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #dc2626;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+
+        .container h2 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 12px #00000012;
+        }
+
+        .card h3 {
+            color: #0f766e;
+            margin-bottom: 12px;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 12px;
+            color: #1d4ed8;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .notice {
+            background: #fff7ed;
+            border-left: 5px solid #f97316;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background: #073b75;
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+            margin-top: 25px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 25px;
+            }
+
+            .hero h2 {
+                font-size: 24px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Krishan Sir</h1>
+        <p>TGT Social Science | Govt Girls High School, Dhanger</p>
+        <p>शिक्षा • ज्ञान • सफलता</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#study">Study Material</a>
+        <a href="#tests">Online Tests</a>
+        <a href="#results">Results</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Welcome to Krishan Sir's Educational Website</h2>
+        <p>कक्षा 6 से 10 तक सामाजिक विज्ञान की अध्ययन सामग्री और ऑनलाइन टेस्ट।</p>
+        <a href="#tests" class="button">Start Online Test</a>
+    </section>
+
+    <section class="container" id="study">
+        <h2>📚 Study Material</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Class 6</h3>
+                <p>इतिहास, भूगोल और नागरिक शास्त्र।</p>
+                <a href="#">Open Study Material</a>
+            </div>
+
+            <div class="card">
+                <h3>Class 7</h3>
+                <p>सामाजिक विज्ञान के अध्याय और नोट्स।</p>
+                <a href="#">Open Study Material</a>
+            </div>
+
+            <div class="card">
+                <h3>Class 8</h3>
+                <p>महत्त्वपूर्ण प्रश्न और अध्ययन सामग्री।</p>
+                <a href="#">Open Study Material</a>
+            </div>
+
+            <div class="card">
+                <h3>Class 9</h3>
+                <p>HBSE पाठ्यक्रम पर आधारित नोट्स।</p>
+                <a href="#">Open Study Material</a>
+            </div>
+
+            <div class="card">
+                <h3>Class 10</h3>
+                <p>बोर्ड परीक्षा की तैयारी और MCQs।</p>
+                <a href="#">Open Study Material</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="tests">
+        <h2>📝 Online Tests</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Class 10 Geography</h3>
+                <p>अध्याय 3 — जल संसाधन</p>
+                <a href="#" target="_blank">Start Test</a>
+            </div>
+
+            <div class="card">
+                <h3>Social Science Quiz</h3>
+                <p>अपने ज्ञान का परीक्षण करें।</p>
+                <a href="#" target="_blank">Start Quiz</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="results">
+        <h2>🏆 Student Results</h2>
+        <div class="notice">
+            <p><strong>महत्त्वपूर्ण सूचना:</strong> विद्यार्थियों के परीक्षा परिणाम यहाँ उपलब्ध कराए जा सकते हैं।</p>
+            <p>परिणाम देखने के लिए शिक्षक द्वारा साझा किया गया लिंक उपयोग करें।</p>
+        </div>
+    </section>
+
+    <section class="container" id="contact">
+        <h2>📞 Contact</h2>
+        <div class="card">
+            <h3>Krishan Kumar</h3>
+            <p>TGT Social Science</p>
+            <p>Govt Girls High School, Dhanger</p>
+            <p>E-mail: krishankasotiagghs</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Krishan Sir Educational Website</p>
+        <p>शिक्षा से सशक्त समाज</p>
+    </footer>
+
+</body>
+</html>
+```
